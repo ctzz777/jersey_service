@@ -1,7 +1,7 @@
 # Jersey dependencies: 
 ```xml
-  <dependencies>
-	    <dependency>
+  	<dependencies>
+	    	<dependency>
 		     <groupId>org.glassfish.jersey.containers</groupId>
 		     <artifactId>jersey-container-servlet</artifactId>
 		     <version>2.2</version>
@@ -11,13 +11,13 @@
 		    <artifactId>jersey-media-moxy</artifactId>
 		    <version>2.2</version>
 		</dependency>
-		
+
 	</dependencies>
 ```
 
 # Jersey 2 marshall Json via moxy as default:
 ```xml
-  <dependencies>
+  	<dependencies>
 		<dependency>
 		    <groupId>org.glassfish.jersey.media</groupId>
 		    <artifactId>jersey-media-moxy</artifactId>
